@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;500;800&display=swap');
+
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --primary-red: red;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+    box-shadow: 0px 5px 10px -5px rgba(0, 0, 0, 0.2);
+}
+
+.header .burger-menu {
+    display: none;
+    cursor: pointer;
+}
+
+.header .menu ul {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 20px;
+}
+
+.header .menu ul a {
+    text-decoration: none;
+    color: red;
+}
+
+.drawer-menu {
+    width: 0px;
+    height: 100%;
+    background-color: white;
+    padding-block: 20px;
+    position: fixed;
+    z-index: 1;
+    overflow-x: hidden;
+    top: 0;
+    right: 0;
+    transition: 0.5s;
+    box-shadow: -3px 0px 5px -1px rgba(0, 0, 0, 0.5);
+}
+
+.drawer-menu .drawer-close {
+    display: flex;
+    justify-content: flex-end;
+    padding-inline: 20px;
+}
+
+.drawer-menu .drawer-close span {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: right;
+    padding: 0 10px;
+    box-sizing: border-box;
+    border: 1px solid #555;
+    border-radius: 50px;
+}
+
+.drawer-menu ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0;
+    align-items: center;
+}
+
+.drawer-menu ul a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.drawer-menu ul a:hover {
+    color: red;
+}
+
+.contact-btn,
+.join-btn {
+    border: 1px solid red;
+    border-radius: 20px;
+    padding: 5px 20px;
+
+}
+
+.join-btn {
+    background-color: red;
+    color: white !important;
+}
+
+.contact-btn:hover {
+    background-color: red;
+    color: white !important;
+    transition: .5s;
+}
+
+.hero-area{
+    height: 391px;
+    width: 100%;
+    background-color: red;
+}
+
+.hero-text {
+    display: flex;
+    flex: wrap;
+    align-items: center;
+  }
+  
+  .hero-text h2 {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    color: white;
+    font-size: 55px;
+    margin-left: 20px;
+  }
+.hero-area img{
+    width: 40%;
+}
+
+.body-texte p{
+    margin: 100px;
+    font-size: 18px;
+}
+
+.body h4{
+    font-size: 20px;
+    color: rgb(238, 6, 6);
+}
+
+.body-member {
+    margin: 200px;
+    display: flex;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+}
+
+.member{
+    position: relative;
+    width: 150px;
+}
+
+.member img{
+    max-width: 100%;
+}
+
+.body-texte2 p{
+    margin:100px;
+    font-size: 18px;
+}
+footer {
+    margin-top: 90px;
+    height: 180.4px;
+    width: 100%;
+    background-color: rgb(27, 62, 116);
+    display: flex;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .logo-footer {
+    width: 100px;
+    margin-left: 5px;
+  }
+  
+  .footer-menu li {
+    margin-top: 15px;
+    margin-left: 100px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    color: white;
+    list-style: none;
+  }
+  
+  .footer-contact {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+/* TABLETTE */
+
+@media (max-width:1000px) {
+    .header .menu {
+        display: none;
+    }
+
+    .header .burger-menu {
+        display: block;
+    }
+
+    .hero-area h1 {
+        font-size: 40px;
+    }
+
+    /* .articles-list>div {
+        width: 60%;
+        margin: 20px auto;
+    } */
+
+    .logo-footer {
+        display: none;
+    }
+
+}
+
+/* MOBILE */
+@media (max-width:425px) {
+    .hero-area img {
+        display: none;
+    }
+
+    .body-texte p{
+        /* text-align: center; */
+        max-width: 90%;
+    }
+    .body-texte2 p {
+        flex-direction: column-reverse;
+        /* text-align: center; */
+    }
+
+    .logo-footer {
+        display: none;
+    }
+
+    .footer-menu {
+        display: none;
+    }
+
+    .footer-contact {
+        width: 80%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+}

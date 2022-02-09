@@ -1,0 +1,42 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+
+.header .menu ul {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+}
+
+.header .menu ul a {
+    text-decoration: none;
+    color: red;
+}
+
+.contact-btn,
+.join-btn {
+    border: 1px solid red;
+    border-radius: 20px;
+    padding: 5px 20px;
+    
+}
+
+.join-btn {
+    background-color: red;
+    color: white !important;
+}
+
+.contact-btn:hover {
+    background-color: red;
+    color: white !important;
+}
