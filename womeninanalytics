@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="womeninanalytics.css" />
+    <title>Women in Analytics</title>
+  </head>
+  <body>
+      
+  </body>
+  <div class="header">
+    <div class="logo">
+      <img src="aadf_black.png" width="100" alt="" />
+    </div>
+    <div class="menu">
+      <ul>
+        <a href="">Qui sommes-nous</a>
+        <a href="">Actualités</a>
+        <a href="">Activités</a>
+        <a href="">Nous soutenir</a>
+        <a href="" class="contact-btn">Contact</a>
+        <a href="" class="join-btn">Nous rejoindre</a>
+      </ul>
+    </div>
+    <div class="burger-menu" onclick="openNav()">
+      <img src="./assets/img/menu.png" width="30px" alt="" />
+    </div>
+  </div>
+  <div class="drawer-menu" id="drawer-menu">
+    <div class="drawer-close">
+      <span onclick="closeNav()">X</span>
+    </div>
+    <ul>
+      <a href="">Qui sommes-nous</a>
+      <a href="">Actualités</a>
+      <a href="">Activités</a>
+      <a href="">Nous soutenir</a>
+      <a href="" class="contact-btn">Contact</a>
+      <a href="" class="join-btn">Nous rejoindre</a>
+    </ul>
+  </div>  
+   
+      <div class="hero-area">
+        <div class="hero-text">
+          <h2>WOMEN IN ANALYTICS</h2>
+          <img src="assests/img/undraw_happy_women_day_fbjt 1.svg" alt="">
+        </div>  
+      </div>
+      
+
+    <section class="body">
+      <div class="body-texte">
+        <p>Le secteur du Web Analytics, et plus généralement celui de la Data, connaissent une pénurie de profils. L’AADF oeuvre à faire connaître et promouvoir ces métiers peu connus, à travers des évènements tels que MeasureCamp, MeasureBowling et les cafés analytics.
+        Nous avons donc souhaité donner la parole à des femmes car lors des évènements tels que MeasureCamp, elles ne représentent que 20% des participants. Nous sommes donc partis à la rencontre de femmes qui font ce métier avec passion.
+            
+          Voici leurs interviews :</p>
+        </div>
+            <div class="body-member">
+                <div class="member">
+                    <img src="./assests/img/Rectangle 20.svg" alt="">
+                    <h4>Yseulys Coste</h4>
+                    <p>CEO du groupe 1000mercis</p>
+                </div>
+      
+                <div class="member">
+                    <img src="./assests/img/Rectangle 21.svg" alt="">
+                    <h4>Fiona de Brabanter</h4>
+                    <p>Digital Analyst & Optimization Expert chez Web-Fi</p>
+                </div>
+      
+                <div class="member">
+                    <img src="./assests/img/Rectangle 22.svg" alt="">
+                    <h4>Ghita Bennani</h4>
+                    <p>Senior Digital Analyst chez L’Oréal</p>
+                </div>
+
+                <div class="member">
+                  <img src="./assests/img/Rectangle 23.svg" alt="">
+                  <h4>Claire Behar</h4>
+                  <p>Data Analyst chez WorkIT Software</p>
+                </div>
+              </div>
+            <div class="body-texte2">
+              <p>Un immense merci à elles qui ont pris le temps de partager leurs conseils et leurs expériences.
+                Et merci à toute l’équipe qui a assuré le montage des vidéos : Mehdi Boudjemaa, Yannick Eyl et Eric Behar.
+                Pauline Guibert & Camille Chaudet</p>
+
+            </div>
+    </section>
+
+    <footer class="footer">
+      <img class="logo-footer" src="./aadf_white.png" alt="">
+      <div class="footer-menu">
+        <ul >
+          <li>Accueil</li>
+          <li>Qui sommes-nous ?</li>
+          <li>Actualités</li>
+          <li>Activités</li>
+          <li>Contact</li>
+        </ul>
+      </div>
+
+      <div class="footer-contact">
+        <img src="assests/img/contact.png" alt="">
+      </div>
+    </footer>
+  </body>
+</html>
+  
