@@ -203,8 +203,8 @@ footer {
         display: block;
     }
 
-    .hero-area h1 {
-        font-size: 40px;
+    .hero-text h2 {
+      font-size: 40px;
     }
 
     /* .articles-list>div {
@@ -220,16 +220,25 @@ footer {
 
 /* MOBILE */
 @media (max-width:425px) {
+    .hero-area{
+        height: 200px;
+    }
     .hero-area img {
         display: none;
     }
-
+    
+    .hero-text h2 {
+        font-size: 40px;
+      }
     .body-texte p{
         /* text-align: center; */
+        font-size: 18px;
         max-width: 90%;
+        margin: 50px;
     }
     .body-texte2 p {
         flex-direction: column-reverse;
+        margin: 20px
         /* text-align: center; */
     }
 
