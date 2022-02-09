@@ -104,7 +104,7 @@
 }
 
 .header .menu ul a::after {
-  content: 4;
+  content: "";
   width: 0%;
   height: 3px;
   background: #9b9999;
@@ -143,24 +143,18 @@
 }
 
 .body {
-    width: 100%;
-    text-align: center;
-    padding: 0 10px;
-    margin: 10px;
-    box-sizing: border-box;
+  width: 100%;
+  text-align: center;
+  padding: 0 10px;
+  margin: 10px;
+  box-sizing: border-box;
 }
 
 .body-title h3 {
-  /* font-size: 34px;
-  font-weight: 400;
-  margin: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center; */
   font-size: 34px;
-    font-weight: 400;
-    display: inline-block;
-    position: relative;
+  font-weight: 400;
+  display: inline-block;
+  position: relative;
 }
 
 .underlined-text::after {
@@ -177,7 +171,7 @@
 }
 
 .body p {
-  font-size: 16px;
+  font-size: 20px;
   margin: 45px;
 }
 
@@ -202,7 +196,7 @@
 
 .member p {
   max-width: 200px;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .member img {
